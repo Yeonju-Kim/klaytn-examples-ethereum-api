@@ -4,11 +4,7 @@ This repo provides examples of sending signed transaction using Ethereum API.
 
 1. Install npm packages. (NodeJS version: v16.14.2)
 ```
-// Ethers.js
-npm install ethers dotenv
-
-// web3.js
-npm install web3 dotenv
+npm install
 ```
 2. Copy and paste .env.template and rename it to .env.
 ```
