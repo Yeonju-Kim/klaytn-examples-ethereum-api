@@ -16,7 +16,7 @@ async function main () {
 
     // Get balance
     const balance = await web3.eth.getBalance(address);
-    console.log(`balance of address(${address}): ${balance*(10**(-18))} ${unit}`)
+    console.log(`Current balance of ${address}: ${balance*(10**(-18))} ${unit}`)
 
     // Get latest nonce
     const nonce = await web3.eth.getTransactionCount(address);

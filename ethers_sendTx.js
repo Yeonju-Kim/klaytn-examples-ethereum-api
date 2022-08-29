@@ -16,7 +16,7 @@ async function main(){
 
         // Get Balance
         const balance = await HTTPSProvider.getBalance(address)
-        console.log(`Current balance of ${address}: ${balance} ${unit}`)
+        console.log(`Current balance of ${address}: ${balance*(10**(-18))} ${unit}`)
 
         // Get latest nonce
         const nonce = await HTTPSProvider.getTransactionCount(address)
