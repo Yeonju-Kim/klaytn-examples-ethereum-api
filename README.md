@@ -1,4 +1,4 @@
-# Examples on Ethereum API
+# Send Signed Transaction using Ethereum API
 
 This repo provides examples of sending signed transaction using Ethereum API.
 
