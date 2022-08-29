@@ -1,7 +1,23 @@
 {
+  "name": "klaytn-examples-ethereum-api",
+  "description": "This repo provides examples of sending signed transaction using Ethereum API.",
+  "version": "1.0.0",
   "dependencies": {
     "dotenv": "^16.0.1",
     "ethers": "^5.7.0",
     "web3": "^1.7.5"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yeonju-Kim/klaytn-examples-ethereum-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yeonju-Kim/klaytn-examples-ethereum-api/issues"
+  },
+  "homepage": "https://github.com/Yeonju-Kim/klaytn-examples-ethereum-api#readme"
 }
